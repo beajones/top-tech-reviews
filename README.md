@@ -1,3 +1,4 @@
 
 
-Fork and clone this repository to start your final project!!
+Web app drawing from NewsAPI to compile trending reviews from select entertainment 
+and technology news sites.
