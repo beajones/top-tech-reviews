@@ -2,8 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.0)
-    json (1.8.6)
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    json (2.1.0)
     method_source (0.8.2)
+    multi_xml (0.6.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -24,10 +27,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  httparty
   json
   pry
   shotgun
   sinatra
 
 BUNDLED WITH
-   1.14.4
+   1.15.3

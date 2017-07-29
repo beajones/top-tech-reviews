@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>site</title>
     
-    <link rel="stylesheet" href="style.css">
+    <title>No Reviews Found</title>
+    
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
@@ -19,12 +19,13 @@
   <body>
     
     <div class="container">
-      <div class="jumbotron">
-      <h1> TopTech </h1>
-      <h2> All the top tech and entertainment reviews in one place! </h2>
+      <div class="page-header">
+        <h1> Sorry, no reviews found for that news site! </h1>
+        <h4> It appears that the news site you chose currently has no trending reviews. </h4>
       </div>
       
-      <h5> Please select a news site: </h5>
+      
+      <h5> Please select another news site: </h5>
       <select class="selectpicker" name="site" form="siteform">
         <option value="select">select</option>
         <option value="ign">IGN</option>
@@ -34,15 +35,16 @@
         <option value="ew">Entertainment Weekly</option>
       </select>
       
-      
       <form method="POST" action="results" id="siteform">
-
-        <!--<input type="submit" value="Submit">-->
         <br>
         <input class="btn btn-primary" type="submit" value="Submit">
       </form>
-
       
+      <nav aria-label="...">
+      <ul class="pager">
+        <li><a href="/">Home</a></li>
+      </ul>
+      </nav>
       
       
       
@@ -57,12 +59,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 
     <!-- (Optional) Latest compiled and minified JavaScript translation files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/i18n/defaults-*.min.js"></script>
+
+
 
   </body>
 </html>
